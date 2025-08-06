@@ -23,8 +23,8 @@ def load_amazon_food_reviews(filename, subset=5000):
     3. Converts ratings into binary sentiment labels (1-2: 0, 4-5: 1, drop 3).
 
     Args:
-        filepath: path to the CSV file
-        sample_size: max number of samples (subset of 568,454 reviews)
+        filename: path to the CSV file
+        subset: max number of samples (subset of 568,454 reviews)
     Returns:
         df: pd.DataFrame of reviews (text and sentiment labels)
             df[item] - item: Score, Text, Sentiment, Tokens, Processed_text
@@ -83,7 +83,7 @@ def preprocess_text(text, use_lemmatization=True):
       1. Removing HTML tags <br />
       2. Converting to lowercases
       3. Removing punctuation and numbers
-      4. Tokenizing into words
+      4. Tokenizing into words, removing stopwords
       5. Lemmatizing or stemming words
     Args:
         text: the given text to be preprocessed

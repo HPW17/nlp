@@ -7,10 +7,14 @@ This project explores the impact of different preprocessing strategies and class
 ## **Dataset and Outside Tools**
 
 The dataset used for this project is the Amazon Fine Food Reviews dataset, publicly available on Kaggle:
-> https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
+```
+https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
+```
 
 Or, it can be downloaded from Google Drive (Reviews.csv, 287MB):
-> https://drive.google.com/file/d/19Cb4Uc5zak7udsetWS_hKwDFxO9M41BF/view?usp=sharing
+```
+https://drive.google.com/file/d/19Cb4Uc5zak7udsetWS_hKwDFxO9M41BF/view?usp=sharing
+```
 
 For computational efficiency and to ensure a balanced dataset for classification, a subset of 20,000 reviews was sampled. This subset was carefully constructed to contain 10,000 positive reviews (4 or 5-star ratings) and 10,000 negative reviews (1 or 2-star ratings). Neutral reviews (3-star ratings) were excluded from the analysis.
 
@@ -25,13 +29,17 @@ The outside tools and packages used in this project include:
 - To run this program in **Colab (Google Colaboratory)**, please follow these steps:
   1. Download the dataset and put it in the root directory of your Google Drive.
   2. Click on the link (you may be required to authorize the access to your Google Drive):
-    > https://githubtocolab.com/HPW17/public/blob/main/group18_project.ipynb
-
+  ```
+  https://githubtocolab.com/HPW17/public/blob/main/group18_project.ipynb
+  ```
+    
 - To run this program on your **local machine**, please follow these steps:
   1. Download the source code (group18_project.py) to your Python environment with necessary libraries and dependencies. 
   2. Download the dataset and put it in the same directory as the source code.
-  3. Run with command: 
-    > python group18_project.py
+  3. Run with command:
+  ```
+  python group18_project.py
+  ```
 
 ## **Data Preprocessing and Feature Extraction**
 

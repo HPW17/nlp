@@ -4,7 +4,7 @@
 
 This project explores the impact of different preprocessing strategies and classification models on sentiment analysis of the “Amazon Fine Food Reviews” dataset. By comparing stemming vs lemmatization, and TF vs TF-IDF vectorization, we evaluate the performance of three supervised learning models (Naive Bayes, Logistic Regression, and Multi-layer Perceptron), alongside K-Means clustering. The results are visualized using confusion matrices and t-SNE plots to highlight differences in model behavior and prediction accuracy.
 
-## ** Dataset and Outside Tools**
+## **Dataset and Outside Tools**
 
 The dataset used for this project is the Amazon Fine Food Reviews dataset, publicly available on Kaggle:
 > https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
@@ -22,16 +22,16 @@ The outside tools and packages used in this project include:
 
 ## **Source Code and Program Execution**
 
-- To run this program in Colab (Google Colaboratory), please follow these steps:
+- To run this program in **Colab (Google Colaboratory)**, please follow these steps:
   1. Download the dataset and put it in the root directory of your Google Drive.
   2. Click on the link (you may be required to authorize the access to your Google Drive):
-https://githubtocolab.com/HPW17/public/blob/main/group18_project.ipynb
+    > https://githubtocolab.com/HPW17/public/blob/main/group18_project.ipynb
 
-- To run this program on your local machine, please follow these steps:
+- To run this program on your **local machine**, please follow these steps:
   1. Download the source code (group18_project.py) to your Python environment with necessary libraries and dependencies. 
   2. Download the dataset and put it in the same directory as the source code.
   3. Run with command: 
-  > python group18_project.py
+    > python group18_project.py
 
 ## **Data Preprocessing and Feature Extraction**
 
@@ -49,18 +49,18 @@ After preprocessing, the text data needed to be converted into numerical feature
 ## **Model Architectures**
 
 We evaluated the following classifiers:
-- Naive Bayes (MultinomialNB): Fast and effective for text data.
-- Logistic Regression (LR): Linear classifier with regularization.
-- Multi-layer Perceptron (MLP): A simple MLP with 1 hidden layer of 100 neurons was used.
+- **Naive Bayes (MultinomialNB):** Fast and effective for text data.
+- **Logistic Regression (LR):** Linear classifier with regularization.
+- **Multi-layer Perceptron (MLP):** A simple MLP with 1 hidden layer of 100 neurons was used.
 
 For unsupervised learning, we used:
-- K-Means Clustering with k=2 to discover sentiment-based clusters.
+- **K-Means Clustering** with k=2 to discover sentiment-based clusters.
 
 ## **Training and Evaluation**
 
-- Data Splitting: The preprocessed dataset (20k reviews) was split into an 80% training set (16k) and a 20% testing set (4k).
-- Classification Training: Each classification model (Naive Bayes, Logistic Regression, MLP) was trained independently on both TF and TF-IDF feature representations for both stemming and lemmatization preprocessing.
-- Evaluation: The metrics included accuracy, precision, recall, F1-score, ROC curve, AUC, and confusion matrix. Results were also visualized using t-SNE.
+- **Data Splitting:** The preprocessed dataset (20k reviews) was split into an 80% training set (16k) and a 20% testing set (4k).
+- **Classification Training:** Each classification model (Naive Bayes, Logistic Regression, MLP) was trained independently on both TF and TF-IDF feature representations for both stemming and lemmatization preprocessing.
+- **Evaluation:** The metrics included accuracy, precision, recall, F1-score, ROC curve, AUC, and confusion matrix. Results were also visualized using t-SNE.
 
 ## **Discussion**
 

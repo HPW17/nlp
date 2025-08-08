@@ -30,7 +30,7 @@ The outside tools and packages used in this project include:
   1. Download the dataset and put it in the root directory of your Google Drive.
   2. Click on the link (you may be required to authorize the access to your Google Drive):
   ```
-  https://githubtocolab.com/HPW17/public/blob/main/group18_project.ipynb
+  https://githubtocolab.com/HPW17/nlp/blob/main/group18_project.ipynb
   ```
     
 - To run this program on your **local machine**, please follow these steps:
@@ -88,4 +88,5 @@ This project successfully implemented and evaluated various NLP techniques for s
 - Logistic Regression and MLP outperform Naive Bayes.
 - Logistic Regression offers a strong trade-off between performance and efficiency.
 - K-Means is limited for sentiment clustering without supervision.
+
 
